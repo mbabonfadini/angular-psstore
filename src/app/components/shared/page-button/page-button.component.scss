@@ -1,0 +1,26 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  max-width: 8rem;
+
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(9, 9, 121, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

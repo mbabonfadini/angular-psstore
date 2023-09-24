@@ -1,0 +1,19 @@
+.home__container {
+  width: 90%;
+  margin: auto;
+  padding: 3rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+
+  background-color: #0E1D3A;
+
+  &__header {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+}

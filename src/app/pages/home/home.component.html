@@ -1,0 +1,11 @@
+<section class="home__container">
+  <header class="home__container__header">
+    <app-card
+      *ngFor="let g of games"
+      gameCover="{{ g.gameCover }}"
+      gameLabel="{{ g.gameLabel }}"
+      gameType="{{ g.gameType }}"
+      gamePrice="{{ g.gamePrice }}"
+    ></app-card>
+  </header>
+</section>

@@ -1,0 +1,42 @@
+.card {
+  &__pricing {
+    &__container {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      padding: 0.625rem;
+
+      width: 100%;
+      height: 4.375rem;
+
+      color: antiquewhite;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+
+      background-color: #00000080;
+    }
+
+    &__title {
+      margin-bottom: 0.188rem;
+    }
+
+    &__value {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__console {
+        display: flex;
+        align-items: center;
+
+        span {
+          font-weight: bolder;
+          color: aqua;
+          margin-right: 0.625rem ;
+        }
+      }
+    }
+  }
+
+}
